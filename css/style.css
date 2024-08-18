@@ -183,6 +183,14 @@ footer ul{
     margin-top: 40px;
 }
 
+.img-ceo{
+    width: 300px;
+}
+
+.img-team{
+    height: 300px;
+}
+
 .div-ceo{
     grid-area: ceo;
     justify-self: end;
@@ -247,14 +255,17 @@ footer ul{
         margin-left: 50px;
         margin-right: 50px;
     }
+    .img-team{
+        height: 250px;
+    }
 }
 
-@media screen and (max-width:835px) {
+@media screen and (max-width:970px) {
     .div-nosotros{
         display: grid;
-        grid-auto-rows: 250px;
+        grid-auto-rows: 230px;
         grid-template-columns: 1fr;
-        row-gap: 100px;
+        row-gap: 0px;
         grid-template-areas: 
         "ceo"
         "desc-ceo"
@@ -267,5 +278,76 @@ footer ul{
     .nosotros div p{
         margin-left: 50px;
         margin-right: 50px;
+    }
+    .div-ceo{
+        grid-area: ceo;
+        justify-self: center;
+    }
+    
+    .div-ceo-desc{
+        grid-area: desc-ceo;
+        font-style: italic;
+        justify-self: center;
+    }
+    
+    .div-equipo{
+        grid-area: team;
+        justify-self: center;
+    }
+    
+    .div-equipo-desc{
+        grid-area: desc-team;
+        justify-self: center;
+    }
+    .img-team{
+        height: 250px;
+    }
+}
+@media screen and (max-width:420px) {
+    .div-nosotros{
+        display: grid;
+        grid-auto-rows: 230px;
+        grid-template-columns: 1fr;
+        row-gap: 0px;
+        grid-template-areas: 
+        "ceo"
+        "desc-ceo"
+        "team"
+        "desc-team"
+        ;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .nosotros div p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .div-ceo{
+        grid-area: ceo;
+        justify-self: center;
+    }
+    
+    .div-ceo-desc{
+        grid-area: desc-ceo;
+        font-style: italic;
+        justify-self: center;
+    }
+    
+    .div-equipo{
+        grid-area: team;
+        justify-self: center;
+    }
+    
+    .div-equipo-desc{
+        grid-area: desc-team;
+        justify-self: center;
+    }
+    .img-team{
+        height: 200px;
+    }
+    
+    .footer-queries li a, .footer-queries li{
+        margin: 0;
+        margin-bottom: 10px;
     }
 }
