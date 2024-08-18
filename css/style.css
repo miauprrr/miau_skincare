@@ -170,6 +170,40 @@ footer ul{
 
 /* nosotros */
 
+.div-nosotros{
+    display: grid;
+    grid-auto-rows: 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+    grid-template-areas: 
+    "ceo desc-ceo desc-ceo"
+    "desc-team desc-team team"
+    ;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.div-ceo{
+    grid-area: ceo;
+    justify-self: end;
+}
+
+.div-ceo-desc{
+    grid-area: desc-ceo;
+    font-style: italic;
+    justify-self: start;
+}
+
+.div-equipo{
+    grid-area: team;
+    justify-self: start;
+}
+
+.div-equipo-desc{
+    grid-area: desc-team;
+    justify-self: end;
+}
+
 .nosotros{
     text-align: center;
     /* margin: 50px; */
@@ -180,9 +214,10 @@ footer ul{
 }
 
 .nosotros div p{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
 
 /* Contacto */
 
@@ -193,4 +228,44 @@ footer ul{
 
 .contacto h1{
     margin-bottom: 30px;
+}
+
+@media screen and (max-width:1050px) {
+    .div-nosotros{
+        display: grid;
+        grid-auto-rows: 250px;
+        grid-template-columns: repeat(5, 1fr);
+        row-gap: 100px;
+        grid-template-areas: 
+        "ceo ceo desc-ceo desc-ceo desc-ceo"
+        "desc-team desc-team desc-team team team"
+        ;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .nosotros div p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:835px) {
+    .div-nosotros{
+        display: grid;
+        grid-auto-rows: 250px;
+        grid-template-columns: 1fr;
+        row-gap: 100px;
+        grid-template-areas: 
+        "ceo"
+        "desc-ceo"
+        "team"
+        "desc-team"
+        ;
+        align-items: center;
+        margin-top: 40px;
+    }
+    .nosotros div p{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 }
