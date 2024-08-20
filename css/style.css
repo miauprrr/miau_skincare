@@ -81,6 +81,23 @@ header div{
     width: 300px;
 }
 
+.product-index-container{
+    overflow: hidden;
+}
+
+.precio{
+    padding: 5px;
+}
+
+.precio:hover{
+    background: #dcd9d9;
+}
+
+.product-index:hover{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);
+}
+
 .section-2{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -104,7 +121,6 @@ header div{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .crema{
@@ -199,7 +215,11 @@ footer ul{
 .div-ceo-desc{
     grid-area: desc-ceo;
     font-style: italic;
-    justify-self: start;
+    justify-self: start;   
+}
+
+.div-ceo-desc p::selection, .div-equipo-desc p::selection{
+    background-color: #fbb1cc72;
 }
 
 .div-equipo{

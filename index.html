@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
     <title>Miau - Inicio</title>
 </head>
+
 <body>
     <!-- cabeza -->
     <header>
@@ -17,15 +24,23 @@
         <!-- Logo -->
         <a class="miau-title" href="./index.html"><img src="./img/miau-title.jpg" alt=""></a>
         <!-- barra de navegación  -->
-        <nav> 
-            <!-- LISTA -->
-            <ul class="navbarlist">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./pages/skincare.html">Skincare</a></li>
-                <li><a href="./pages/maquillaje.html">Maquillaje</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul> 
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid justify-content-end">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav navbar-center fs-5 text">
+                        <li class="nav-item p-3 fw-bold"><a class="nav-link" href="./index.html">Inicio</a></li>
+                        <li class="nav-item p-3 fw-bold"><a class="nav-link" href="./pages/skincare.html">Skincare</a></li>
+                        <li class="nav-item p-3 fw-bold"><a class="nav-link" href="./pages/maquillaje.html">Maquillaje</a></li>
+                        <li class="nav-item p-3 fw-bold"><a class="nav-link" href="./pages/nosotros.html">Nosotros</a></li>
+                        <li class="nav-item p-3 fw-bold"><a class="nav-link" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -40,57 +55,74 @@
             <h2>Nuestros productos</h2>
             <div class="div-products">
                 <div class="productos">
-                    <a href=""><img class="product-index" src="./img/product-1.jpg" alt=""></a>
+                    <div class="product-index-container">
+                        <a><img class="product-index" src="./img/product-1.jpg" alt=""></a>
+                    </div>
                     <p class="crema">Crema 1</p>
-                    <p>Precio</p>
+                    <p class="precio">Precio</p>
                 </div>
                 <div class="productos">
-                    <a href=""><img class="product-index" src="./img/product-2.jpg" alt=""></a>
+                    <div class="product-index-container">
+                        <a><img class="product-index" src="./img/product-2.jpg" alt=""></a>
+                    </div>
                     <p class="crema">Crema 2</p>
-                    <p>Precio</p>
+                    <p class="precio">Precio</p>
                 </div>
                 <div class="productos">
-                    <a href=""><img class="product-index" src="./img/product-3.jpg" alt=""></a>
+                    <div class="product-index-container">
+                        <a><img class="product-index" src="./img/product-3.jpg" alt=""></a>
+                    </div>
                     <p class="crema">Crema 3</p>
-                    <p>Precio</p>
+                    <p class="precio">Precio</p>
                 </div>
                 <div class="productos">
-                    <a href=""><img class="product-index" src="./img/product-4.jpg" alt=""></a>
+                    <div class="product-index-container">
+                        <a><img class="product-index" src="./img/product-4.jpg" alt=""></a>
+                    </div>
                     <p class="crema">Crema 4</p>
-                    <p>Precio</p>
+                    <p class="precio">Precio</p>
                 </div>
                 <div class="productos">
-                    <a href=""><img class="product-index" src="./img/product-5.jpg" alt=""></a>
+                    <div class="product-index-container">
+                        <a><img class="product-index" src="./img/product-5.jpg" alt=""></a>
+                    </div>
                     <p class="crema">Crema 5</p>
-                    <p>Precio</p>
+                    <p class="precio">Precio</p>
                 </div>
                 <div class="productos">
-                    <a href=""><img class="product-index" src="./img/product-6.jpg" alt=""></a>
+                    <div class="product-index-container">
+                        <a><img class="product-index" src="./img/product-6.jpg" alt=""></a>
+                    </div>
                     <p class="crema">Crema 6</p>
-                    <p>Precio</p>
+                    <p class="precio">Precio</p>
                 </div>
             </div>
             <div class="div-link-productos">
                 <a class="link-productos" href="./pages/skincare.html">Ver productos</a>
             </div>
-        </section>  
+        </section>
         <section class="section-3">
             <h2>Opiniones</h2>
             <div class="div-opiniones">
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores mollitia voluptatum laborum in earum incidunt ut.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores
+                        mollitia voluptatum laborum in earum incidunt ut.</p>
                 </div>
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores mollitia voluptatum laborum in earum incidunt ut.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores
+                        mollitia voluptatum laborum in earum incidunt ut.</p>
                 </div>
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores mollitia voluptatum laborum in earum incidunt ut.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores
+                        mollitia voluptatum laborum in earum incidunt ut.</p>
                 </div>
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores mollitia voluptatum laborum in earum incidunt ut.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores
+                        mollitia voluptatum laborum in earum incidunt ut.</p>
                 </div>
                 <div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores mollitia voluptatum laborum in earum incidunt ut.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet ipsa, obcaecati asperiores
+                        mollitia voluptatum laborum in earum incidunt ut.</p>
                 </div>
             </div>
         </section>
@@ -114,4 +146,5 @@
     </footer>
 </body>
 <!--Comentario-->
+
 </html>
