@@ -75,6 +75,7 @@ header div{
 .link-productos{
     border: 2px solid black;
     padding: 5px;
+    background-color: #ffffffad;
 }
 
 .product-index{
@@ -132,7 +133,7 @@ header div{
 }
 
 .section-3{
-    background-image: url(../img/background-2.jpg);
+    background-image: url(../img/background-2.png);
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -143,24 +144,18 @@ header div{
     margin-bottom: 20px;
 }
 
-.section-3 *{
-    position: relative;
-    top: 30%;
+.carousel-inner div p{
+    padding: 80px;
+    font-weight: 400;
+    font-size: large;
 }
 
-.div-opiniones{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;   
-    justify-content: center; 
+.carousel-control-prev {
+    left: -50px;
 }
 
-.div-opiniones div{
-    width: 300px;
-    margin: 15px;
-    border: 1px solid black;
-    padding: 5px;
-    background-color: rgb(254 254 254 / 55%);
+.carousel-control-next {
+    right: -50px;
 }
 
 /* Footer */
@@ -174,10 +169,6 @@ footer{
 
 footer *{
     margin: 20px;
-}
-
-footer ul{
-    /* display: inline-block; */
 }
 
 .miau-footer{
@@ -234,7 +225,6 @@ footer ul{
 
 .nosotros{
     text-align: center;
-    /* margin: 50px; */
 }
 
 .nosotros h1{
@@ -251,12 +241,17 @@ footer ul{
 
 .contacto{
     text-align: center;
-    /* margin: 40px; */
 }
 
 .contacto h1{
     margin-bottom: 30px;
 }
+
+.mapa-contacto{
+    margin-top: 50px;
+}
+
+/* media queries */
 
 @media screen and (max-width:1050px) {
     .div-nosotros{
@@ -277,6 +272,10 @@ footer ul{
     }
     .img-team{
         height: 250px;
+    }
+
+    .carousel-inner div p{
+        padding: 70px;
     }
 }
 
@@ -323,6 +322,13 @@ footer ul{
         height: 250px;
     }
 }
+
+@media screen and (max-width:550px) {
+    .carousel-inner div p{
+        padding: 30px;
+    }
+}
+
 @media screen and (max-width:420px) {
     .div-nosotros{
         display: grid;
