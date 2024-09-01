@@ -255,7 +255,6 @@ footer *{
 
 @media screen and (max-width:1050px) {
     .div-nosotros{
-        display: grid;
         grid-auto-rows: 250px;
         grid-template-columns: repeat(5, 1fr);
         row-gap: 100px;
@@ -281,7 +280,6 @@ footer *{
 
 @media screen and (max-width:970px) {
     .div-nosotros{
-        display: grid;
         grid-auto-rows: 230px;
         grid-template-columns: 1fr;
         row-gap: 0px;
@@ -331,7 +329,6 @@ footer *{
 
 @media screen and (max-width:420px) {
     .div-nosotros{
-        display: grid;
         grid-auto-rows: 230px;
         grid-template-columns: 1fr;
         row-gap: 0px;
