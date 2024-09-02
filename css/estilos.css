@@ -7,3 +7,121 @@
 body {
   font-family: "Roboto", sans-serif;
   background-color: #fcfcfe; }
+
+.navbarlist {
+  font-weight: bold;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.navbarlist li {
+  margin: 20px; }
+
+.section-1 * {
+  position: relative;
+  top: 40%; }
+
+#carouselExampleAutoplaying .carousel-inner div p {
+  padding: 80px;
+  font-weight: 400;
+  font-size: large; }
+
+#carouselExampleAutoplaying .carousel-control-prev {
+  left: -50px; }
+
+#carouselExampleAutoplaying .carousel-control-next {
+  right: -50px; }
+
+footer * {
+  margin: 20px; }
+
+header div {
+  margin-left: 30px; }
+  header div a img {
+    width: 30px;
+    margin: 10px; }
+
+header .miau-title {
+  display: block;
+  text-align: center; }
+  header .miau-title img {
+    width: 250px; }
+
+main .section-1 {
+  background-image: url(../img/background-1.jpg);
+  width: 100%;
+  height: calc(100vh - 200.81px);
+  background-size: cover;
+  background-position: center;
+  text-align: center; }
+  main .section-1 h1 {
+    margin-bottom: 10px; }
+  main .section-1 .link-productos {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: #ffffffad; }
+
+main .section-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  main .section-2 .div-products {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px; }
+    main .section-2 .div-products div {
+      margin: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      main .section-2 .div-products div div {
+        overflow: hidden; }
+        main .section-2 .div-products div div a img {
+          width: 300px; }
+          main .section-2 .div-products div div a img:hover {
+            -webkit-transform: scale(1.3);
+            transform: scale(1.3); }
+      main .section-2 .div-products div .crema {
+        font-weight: bold; }
+      main .section-2 .div-products div .precio {
+        padding: 5px; }
+        main .section-2 .div-products div .precio:hover {
+          background: #dcd9d9; }
+  main .section-2 .div-link-productos {
+    text-align: center; }
+    main .section-2 .div-link-productos .link-productos {
+      border: 2px solid black;
+      padding: 5px;
+      background-color: #ffffffad; }
+
+main .section-3 {
+  background-image: url(../img/background-2.png);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 50px; }
+  main .section-3 h2 {
+    margin-bottom: 20px; }
+
+.contacto {
+  text-align: center; }
+  .contacto .section-2 h1 {
+    margin-bottom: 30px; }
+  .contacto .mapa-contacto {
+    margin-top: 50px; }
+
+footer {
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+  footer a img {
+    width: 130px; }

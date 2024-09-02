@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 /* reset */
-*{
+/* {
     margin: 0;
     padding: 0;
-}
+} */
 
-body{
+/* body{
     font-family: "Roboto", sans-serif;
     background-color: #fcfcfe;
-}
+} */
 
 ul{
     list-style-type: none;
@@ -22,7 +22,7 @@ a{
 
 /* header */
 
-.navbarlist{
+/* .navbarlist{
     font-weight: bold;
     font-size: large;
     display: flex;
@@ -50,11 +50,11 @@ header div{
 
 .miau-title img{
     width: 250px;
-}
+} */
 
 /* main */
 
-.section-1{
+/* .section-1{
     background-image: url(../img/background-1.jpg);
     width: 100%;
     height: calc(100vh - 200.81px);
@@ -76,30 +76,30 @@ header div{
     border: 2px solid black;
     padding: 5px;
     background-color: #ffffffad;
-}
+} */
 
-.product-index{
+/* .product-index{
     width: 300px;
-}
+} */
 
-.product-index-container{
-    overflow: hidden;
-}
-
-.precio{
-    padding: 5px;
-}
-
-.precio:hover{
-    background: #dcd9d9;
-}
-
-.product-index:hover{
+/* .product-index:hover{
     -webkit-transform:scale(1.3);
     transform:scale(1.3);
-}
+} */
 
-.section-2{
+/* .product-index-container{
+    overflow: hidden;
+} */
+
+/* .precio{
+    padding: 5px;
+} */
+
+/* .precio:hover{
+    background: #dcd9d9;
+} */
+
+/* .section-2{
     margin-top: 20px;
     margin-bottom: 20px;
     align-items: center;
@@ -107,32 +107,32 @@ header div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
+} */
 
-.div-products{
+/* .div-products{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 30px;
-}
+} */
 
-.productos{
+/* .productos{
     margin: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
-.crema{
+/* .crema{
     font-weight: bold;
-}
+} */
 
-.div-link-productos{
+/* .div-link-productos{
     text-align: center;
-}
+} */
 
-.section-3{
+/* .section-3{
     background-image: url(../img/background-2.png);
     background-size: cover;
     background-position: center;
@@ -142,9 +142,9 @@ header div{
 
 .section-3 h2{
     margin-bottom: 20px;
-}
+} */
 
-.carousel-inner div p{
+/* .carousel-inner div p{
     padding: 80px;
     font-weight: 400;
     font-size: large;
@@ -156,10 +156,10 @@ header div{
 
 .carousel-control-next {
     right: -50px;
-}
+} */
 
 /* Footer */
-footer{
+/* footer{
     padding: 50px;
     margin: 20px;
     display: flex;
@@ -169,11 +169,11 @@ footer{
 
 footer *{
     margin: 20px;
-}
+} */
 
-.miau-footer{
+/* .miau-footer{
     width: 130px;
-}
+} */
 
 /* nosotros */
 
@@ -239,17 +239,17 @@ footer *{
 
 /* Contacto */
 
-.contacto{
+/* .contacto{
     text-align: center;
-}
+} */
 
-.contacto h1{
+/* .contacto .section-2 h1{
     margin-bottom: 30px;
-}
+} */
 
-.mapa-contacto{
+/* .mapa-contacto{
     margin-top: 50px;
-}
+} */
 
 /* media queries */
 

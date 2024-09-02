@@ -14,3 +14,44 @@ body{
 // clases que modifican bootstrap
 // Clases para aplicar propiedades
 // importaciones de fuentes 
+
+.navbarlist{
+    font-weight: bold;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbarlist li{
+    margin: 20px;
+}
+
+// main
+
+.section-1 *{
+    position: relative;
+    top: 40%;
+}
+
+#carouselExampleAutoplaying{
+    .carousel-inner div p{
+        padding: 80px;
+        font-weight: 400;
+        font-size: large;
+    }
+    
+    .carousel-control-prev {
+        left: -50px;
+    }
+    
+    .carousel-control-next {
+        right: -50px;
+    }
+}
+
+// footer
+
+footer *{
+    margin: 20px;
+}
