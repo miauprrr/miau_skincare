@@ -32,7 +32,7 @@ main{
             flex-wrap: wrap;
             align-items: center;
             margin-top: 30px;
-            div{
+            .productos{
                 margin: 40px;
                 display: flex;
                 flex-direction: column;
@@ -81,6 +81,8 @@ main{
     }
 }
 
+// Contacto
+
 .contacto{
     text-align: center;
     .section-2{
@@ -93,5 +95,69 @@ main{
     }
     .mapa-contacto{
         margin-top: 50px;
+    }
+}
+
+// Nosotros
+
+.nosotros{
+    text-align: center;
+    .section-2{
+        h1{
+            margin-bottom: 30px;
+        }
+        .div-nosotros{
+            display: grid;
+            grid-auto-rows: 250px;
+            grid-template-columns: 1fr 1fr 1fr;
+            row-gap: 100px;
+            grid-template-areas: 
+            "ceo desc-ceo desc-ceo"
+            "desc-team desc-team team"
+            ;
+            align-items: center;
+            margin-top: 40px;
+            .div-ceo{
+                grid-area: ceo;
+                justify-self: end;
+                a{
+                    .img-ceo{
+                        width: 300px;
+                    }
+                }
+            }
+            .div-ceo-desc{
+                grid-area: desc-ceo;
+                font-style: italic;
+                justify-self: start;  
+                p{
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    &::selection{
+                        background-color: #fbb1cc72;
+                    }
+                }
+            }
+            .div-equipo{
+                grid-area: team;
+                justify-self: start;
+                a{
+                    .img-team{
+                        height: 300px;
+                    }
+                }
+            }
+            .div-equipo-desc{
+                grid-area: desc-team;
+                justify-self: end;
+                p{
+                    margin-left: 100px;
+                    margin-right: 100px;
+                    &::selection{
+                        background-color: #fbb1cc72;
+                    }
+                }
+            }
+        }
     }
 }

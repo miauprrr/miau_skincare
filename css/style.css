@@ -11,14 +11,14 @@
     background-color: #fcfcfe;
 } */
 
-ul{
+/* ul{
     list-style-type: none;
 }
 
 a{
     text-decoration: none;
     color: black;
-}
+} */
 
 /* header */
 
@@ -177,7 +177,7 @@ footer *{
 
 /* nosotros */
 
-.div-nosotros{
+/* .div-nosotros{
     display: grid;
     grid-auto-rows: 250px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -188,53 +188,53 @@ footer *{
     ;
     align-items: center;
     margin-top: 40px;
-}
+} */
 
-.img-ceo{
+/* .img-ceo{
     width: 300px;
-}
+} */
 
-.img-team{
+/* .img-team{
     height: 300px;
-}
+} */
 
-.div-ceo{
+/* .div-ceo{
     grid-area: ceo;
     justify-self: end;
-}
+} */
 
-.div-ceo-desc{
+/* .div-ceo-desc{
     grid-area: desc-ceo;
     font-style: italic;
     justify-self: start;   
-}
+} */
 
-.div-ceo-desc p::selection, .div-equipo-desc p::selection{
+/* .div-ceo-desc p::selection, .div-equipo-desc p::selection{
     background-color: #fbb1cc72;
-}
+} */
 
-.div-equipo{
+/* .div-equipo{
     grid-area: team;
     justify-self: start;
-}
+} */
 
-.div-equipo-desc{
+/* .div-equipo-desc{
     grid-area: desc-team;
     justify-self: end;
-}
+} */
 
-.nosotros{
+/* .nosotros{
     text-align: center;
-}
+} */
 
-.nosotros h1{
+/* .nosotros h1{
     margin-bottom: 30px;
-}
+} */
 
-.nosotros div p{
+/* .nosotros div p{
     margin-left: 100px;
     margin-right: 100px;
-}
+} */
 
 
 /* Contacto */
@@ -253,7 +253,7 @@ footer *{
 
 /* media queries */
 
-@media screen and (max-width:1050px) {
+/* @media screen and (max-width:1050px) {
     .div-nosotros{
         grid-auto-rows: 250px;
         grid-template-columns: repeat(5, 1fr);
@@ -373,4 +373,4 @@ footer *{
         margin: 0;
         margin-bottom: 10px;
     }
-}
+} */
