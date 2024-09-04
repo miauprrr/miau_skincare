@@ -4,7 +4,7 @@ header{
         a{
             img{
                 width: 30px;
-                margin: 10px;
+                margin: nth($margin-list, 2);
             }
         }
     }

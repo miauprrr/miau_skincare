@@ -10,9 +10,9 @@ main{
             margin-bottom: 10px;
         }
         .link-productos{
-            border: 2px solid black;
+            border: 2px solid $color-base;
             padding: 5px;
-            background-color: #ffffffad;
+            background-color:$background-color;
         }
     }
     .section-2{
@@ -20,9 +20,8 @@ main{
         margin-bottom: 20px;
         align-items: center;
         padding: 20px;
-        display: flex;
+        @extend %display-flex-center;
         flex-direction: column;
-        justify-content: center;
         h2{
 
         }
@@ -33,7 +32,7 @@ main{
             align-items: center;
             margin-top: 30px;
             .productos{
-                margin: 40px;
+                margin: nth($margin-list, 4);
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -63,9 +62,9 @@ main{
         .div-link-productos{
             text-align: center;
             .link-productos{
-                border: 2px solid black;
+                border: 2px solid $color-base;
                 padding: 5px;
-                background-color: #ffffffad;
+                background-color: $background-color;
             }
         }
     }
@@ -131,10 +130,9 @@ main{
                 font-style: italic;
                 justify-self: start;  
                 p{
-                    margin-left: 100px;
-                    margin-right: 100px;
+                   @extend %margin-left-right;
                     &::selection{
-                        background-color: #fbb1cc72;
+                        background-color: $select-background-color; 
                     }
                 }
             }
@@ -151,10 +149,9 @@ main{
                 grid-area: desc-team;
                 justify-self: end;
                 p{
-                    margin-left: 100px;
-                    margin-right: 100px;
+                   @extend %margin-left-right;
                     &::selection{
-                        background-color: #fbb1cc72;
+                        background-color: $select-background-color; 
                     }
                 }
             }

@@ -92,35 +92,31 @@
         margin-right: 50px;
     }
     .nosotros .section-2 .div-nosotros .div-ceo{
-        grid-area: ceo;
-        justify-self: center;
+        @include grid-justify(ceo, center);
     }
     
     .nosotros .section-2 .div-nosotros .div-ceo-desc{
-        grid-area: desc-ceo;
+        @include grid-justify(desc-ceo, center);
         font-style: italic;
-        justify-self: center;
     }
     
     .nosotros .section-2 .div-nosotros .div-equipo{
-        grid-area: team;
-        justify-self: center;
+        @include grid-justify(team, center);
     }
     
     .nosotros .section-2 .div-nosotros .div-equipo-desc{
-        grid-area: desc-team;
-        justify-self: center;
+        @include grid-justify(desc-team, center);
     }
     .nosotros .section-2 .div-nosotros .div-equipo a .img-team{
         height: 200px;
     }
     
     main .section-2 .div-products .productos{
-        margin: 10px;
+        margin: nth($margin-list, 2);
     }
     
     .footer-queries li a, .footer-queries li{
-        margin: 0;
+        margin: nth($margin-list, 1);
         margin-bottom: 10px;
     }
 }

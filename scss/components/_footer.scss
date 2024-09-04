@@ -1,6 +1,6 @@
 footer{
     padding: 50px;
-    margin: 20px;
+    margin: nth($margin-list, 3);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;

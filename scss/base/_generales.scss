@@ -2,7 +2,7 @@
 
 /* reset */
 *{
-    margin: 0;
+    margin: nth($margin-list, 1);
     padding: 0;
 }
 
@@ -17,7 +17,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: black;
+    color: $color-base;
 }
 
 // clases que modifican bootstrap
@@ -27,13 +27,12 @@ a{
 .navbarlist{
     font-weight: bold;
     font-size: large;
-    display: flex;
-    justify-content: center;
+    @extend %display-flex-center;
     flex-wrap: wrap;
 }
 
 .navbarlist li{
-    margin: 20px;
+    margin: nth($margin-list, 3);
 }
 
 // main
@@ -62,5 +61,5 @@ a{
 // footer
 
 footer *{
-    margin: 20px;
+    margin: nth($margin-list, 3);
 }
