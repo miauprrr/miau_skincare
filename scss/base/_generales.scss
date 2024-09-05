@@ -18,6 +18,10 @@ ul{
 a{
     text-decoration: none;
     color: $color-base;
+    &:hover{
+        font-weight: bold;
+        color: initial;
+    }
 }
 
 // clases que modifican bootstrap
