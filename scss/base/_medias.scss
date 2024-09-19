@@ -75,7 +75,7 @@
 
 @media screen and (max-width:420px) {
     .nosotros .section-2 .div-nosotros{
-        grid-auto-rows: 230px;
+        grid-auto-rows: auto;
         grid-template-columns: 1fr;
         row-gap: 0px;
         grid-template-areas: 
@@ -92,20 +92,20 @@
         margin-right: 50px;
     }
     .nosotros .section-2 .div-nosotros .div-ceo{
-        @include grid-justify(ceo, center);
+        @include grid-justify(ceo, center, 10px);
     }
     
     .nosotros .section-2 .div-nosotros .div-ceo-desc{
-        @include grid-justify(desc-ceo, center);
+        @include grid-justify(desc-ceo, center, 10px);
         font-style: italic;
     }
     
     .nosotros .section-2 .div-nosotros .div-equipo{
-        @include grid-justify(team, center);
+        @include grid-justify(team, center, 10px);
     }
     
     .nosotros .section-2 .div-nosotros .div-equipo-desc{
-        @include grid-justify(desc-team, center);
+        @include grid-justify(desc-team, center, 10px);
     }
     .nosotros .section-2 .div-nosotros .div-equipo a .img-team{
         height: 200px;

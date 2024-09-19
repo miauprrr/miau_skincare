@@ -170,7 +170,8 @@ footer {
   margin: 20px;
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  text-align: center; }
   footer a img {
     width: 130px; }
 
@@ -223,7 +224,7 @@ footer {
 
 @media screen and (max-width: 420px) {
   .nosotros .section-2 .div-nosotros {
-    grid-auto-rows: 230px;
+    grid-auto-rows: auto;
     grid-template-columns: 1fr;
     row-gap: 0px;
     grid-template-areas: "ceo" "desc-ceo" "team" "desc-team";
@@ -234,17 +235,21 @@ footer {
     margin-right: 50px; }
   .nosotros .section-2 .div-nosotros .div-ceo {
     grid-area: ceo;
-    justify-self: center; }
+    justify-self: center;
+    padding-bottom: 10px; }
   .nosotros .section-2 .div-nosotros .div-ceo-desc {
     grid-area: desc-ceo;
     justify-self: center;
+    padding-bottom: 10px;
     font-style: italic; }
   .nosotros .section-2 .div-nosotros .div-equipo {
     grid-area: team;
-    justify-self: center; }
+    justify-self: center;
+    padding-bottom: 10px; }
   .nosotros .section-2 .div-nosotros .div-equipo-desc {
     grid-area: desc-team;
-    justify-self: center; }
+    justify-self: center;
+    padding-bottom: 10px; }
   .nosotros .section-2 .div-nosotros .div-equipo a .img-team {
     height: 200px; }
   main .section-2 .div-products .productos {

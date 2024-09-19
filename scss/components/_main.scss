@@ -22,9 +22,6 @@ main{
         padding: 20px;
         @extend %display-flex-center;
         flex-direction: column;
-        h2{
-
-        }
         .div-products{
             display: flex;
             justify-content: space-evenly;
@@ -88,9 +85,6 @@ main{
         h1{ 
             margin-bottom: 30px;
         }
-    }
-    .formulario{
-
     }
     .mapa-contacto{
         margin-top: 50px;
